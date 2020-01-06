@@ -1,0 +1,35 @@
+DOTFILES_EXEC=$HOME/.dotfiles/scripts/
+
+# dotfiles
+alias dotfiles="git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
+alias dfs="dotfiles status"
+alias dfd="dotfiles diff"
+alias dfl="dotfiles pull"
+alias dfp="dotfiles push"
+alias dfa="dotfiles add"
+alias dfc="dotfiles commit"
+alias dfechmod="find $DOTFILES_EXEC -iname '*.sh' -exec chmod +x '{}' \;"
+
+function dfe() {
+  dfechmod
+  executable="$1"
+  shift
+  command "$DOTFILES_EXEC$executable.sh" "$@"
+}
+
+# zshrc
+alias sz='source ~/.zshrc'
+
+# cheatsheets
+alias ccv='less $HOME/.dotfiles/cheatsheets/neovim.md'
+alias cct='less $HOME/.dotfiles/cheatsheets/tmux.md'
+
+# old one
+alias journalctl='sudo journalctl'
+alias systemctl='sudo systemctl'
+alias se='ls /usr/bin | grep'
+alias ag='ag --path-to-ignore ~/.agignore'
+
+alias ru='sudo apt-get update && sudo apt-get -y upgrade && snap refresh'
+alias sz='source ~/.zshrc'
+alias code='code-insiders'
