@@ -15,7 +15,6 @@ sudo apt-get update && \
   i3lock-fancy \
   j4-dmenu-desktop \
   libplayerctl2 \
-  neovim \
   nitrogen \
   pavucontrol \
   pavucontrol-qt \
@@ -65,4 +64,10 @@ if [ ! -d "$HOME/.tmux/plugins/tpm" ]; then
   git clone https://github.com/tmux-plugins/tpm $HOME/.tmux/plugins/tpm > /dev/null
 else
   git --git-dir=$HOME/.tmux/plugins/tpm/.git --work-tree=$HOME/.tmux/plugins/tpm pull > /dev/null
+fi
+
+if ! hash nvim 2>/dev/null ; then
+  echo 'aaa'
+  curl -L https://github.com/neovim/neovim/releases/download/nightly/nvim.appimage > $HOME/opt/nvim
+  chmod +x $HOME/opt/nvim
 fi
