@@ -1,0 +1,5 @@
+{
+  "autoload/*.vim": { "type": "autoload" },
+  "config/*.vim": { "type": "config" },
+  "config/plugins/*.vim": { "type": "plugins" }
+}
