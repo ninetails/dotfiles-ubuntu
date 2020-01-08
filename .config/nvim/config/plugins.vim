@@ -21,6 +21,7 @@ Plug 'milkypostman/vim-togglelist' " fixes toggling Location & QuickFix lists
 Plug 'mhinz/vim-startify'
 
 " vim navigation
+Plug 'dbakker/vim-projectroot'
 Plug 'scrooloose/nerdtree'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 

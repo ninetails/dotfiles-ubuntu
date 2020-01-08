@@ -1,4 +1,14 @@
-nmap <silent> <Bslash> :NERDTreeToggle<CR>
+function! NERDTreeToggleFind()
+  if exists("g:NERDTree") && g:NERDTree.IsOpen()
+    NERDTreeClose
+  elseif filereadable(expand('%'))
+    ProjectRootExe NERDTreeFind
+  else
+    ProjectRootExe NERDTree
+  endif
+endfunction
+
+nmap <silent> <Bslash> :call NERDTreeToggleFind()<CR>
 let g:NERDTreeMapActivateMode = "<F2>"
 let g:NERDTreeMapPreview = "<F3>"
 let g:NERDTreeWinSize = 60
