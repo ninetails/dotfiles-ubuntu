@@ -19,6 +19,7 @@ sudo apt-get update && \
   pavucontrol \
   pavucontrol-qt \
   powerline \
+  silversearcher-ag \
   terminator \
   tmux \
   tmuxp \
