@@ -25,9 +25,10 @@ Plug 'dbakker/vim-projectroot'
 Plug 'scrooloose/nerdtree'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 
-" <C-*>
+" <C-*> and search
 Plug 'vim-ctrlspace/vim-ctrlspace'
 Plug 'ctrlpvim/ctrlp.vim'
+Plug 'mileszs/ack.vim'
 
 " swap tiles
 Plug 'wesQ3/vim-windowswap'
