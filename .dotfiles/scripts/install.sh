@@ -4,6 +4,7 @@ sudo apt-get update && \
   sudo apt install \
   compton \
   curl \
+  exuberant-ctags \
   fonts-firacode \
   fonts-font-awesome \
   fonts-noto-color-emoji \
