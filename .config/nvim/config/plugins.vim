@@ -45,6 +45,9 @@ Plug 'chrisbra/Colorizer'
 Plug 'qpkorr/vim-bufkill'
 Plug 'djoshea/vim-autoread'
 
+" emoji
+Plug 'kyuhi/vim-emoji-complete'
+
 " theming
 "Plug 'flazz/vim-colorschemes' " hybrid_reverse
 Plug 'danilo-augusto/vim-afterglow'
@@ -75,12 +78,14 @@ Plug 'Quramy/tsuquyomi'
 " syntax/stylus
 Plug 'wavded/vim-stylus'
 
+Plug 'godlygeek/tabular'
+Plug 'plasticboy/vim-markdown'
+
 " omni & completion
 "Plug 'lifepillar/vim-mucomplete'
 Plug '1995eaton/vim-better-javascript-completion'
 Plug 'othree/html5.vim'
 Plug 'othree/jspc.vim'
-Plug 'carlitux/deoplete-ternjs', { 'do': 'npm install -g tern' }
 
 " snippets
 Plug 'honza/vim-snippets'
