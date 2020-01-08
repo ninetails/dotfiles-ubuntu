@@ -13,7 +13,7 @@ nnoremap <leader>ei :edit ~/.config/i3/config<cr>
 nnoremap <leader>pi :PlugInstall<cr>
 
 " shortcuts
-nnoremap <leader>cx :bw<cr>
+nnoremap <leader>cx :BD<cr>
 nnoremap <leader>ss :w<cr>
 nnoremap <leader>zz :wq<cr>
 nnoremap <leader>qa :qa!<cr>

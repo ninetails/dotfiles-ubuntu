@@ -1,1 +1,1 @@
-let g:used_javascript_libs = 'underscore,react,ramda'
+let g:used_javascript_libs = 'jasmine,react,ramda'
