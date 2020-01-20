@@ -13,11 +13,16 @@ nnoremap <leader>ei :edit ~/.config/i3/config<cr>
 nnoremap <leader>pi :PlugInstall<cr>
 
 " shortcuts
-nnoremap <leader>cx :BD<cr>
+nnoremap <leader>cx :bd<cr>
+nnoremap <leader>xx :BD<cr>
 nnoremap <leader>ss :w<cr>
 nnoremap <leader>zz :wq<cr>
 nnoremap <leader>qa :qa!<cr>
 nnoremap <leader>cd :lcd %:p:h<cr>:NERDTreeCWD<cr>:NERDTreeClose<cr>
+
+" reopen last closed buffer
+" https://stackoverflow.com/questions/8184001/vim-reopen-last-closed-window-that-was-in-split
+nnoremap <leader>t :b#<CR>
 
 " Maps - Buffer
 nnoremap <silent> <leader><Tab> :bn<cr>

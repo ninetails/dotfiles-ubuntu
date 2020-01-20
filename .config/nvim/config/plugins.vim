@@ -29,6 +29,8 @@ Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'vim-ctrlspace/vim-ctrlspace'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'mileszs/ack.vim'
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+Plug 'junegunn/fzf.vim'
 
 " swap tiles
 Plug 'wesQ3/vim-windowswap'
@@ -102,15 +104,15 @@ Plug 'othree/html5.vim'
 Plug 'othree/jspc.vim'
 
 " snippets
-Plug 'tomtom/tlib_vim' " snipmate dep
-Plug 'MarcWeber/vim-addon-mw-utils' " snipmate dep
-Plug 'garbas/vim-snipmate'
+"Plug 'tomtom/tlib_vim' " snipmate dep
+"Plug 'MarcWeber/vim-addon-mw-utils' " snipmate dep
+"Plug 'garbas/vim-snipmate'
 
-Plug 'honza/vim-snippets'
+"Plug 'honza/vim-snippets'
 
 " snippets/js
-Plug 'bentayloruk/vim-react-es6-snippets'
-Plug 'mlaursen/vim-react-snippets'
-Plug 'joaohkfaria/vim-jest-snippets'
+"Plug 'bentayloruk/vim-react-es6-snippets'
+"Plug 'mlaursen/vim-react-snippets'
+"Plug 'joaohkfaria/vim-jest-snippets'
 
 call plug#end()

@@ -8,3 +8,5 @@ let g:ackhighlight = 1
 
 cnoreabbrev Ack Ack!
 nnoremap <Leader>a :Ack!<Space>
+
+let g:ackprg = 'ag --vimgrep --smart-case'
