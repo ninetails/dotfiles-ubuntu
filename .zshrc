@@ -139,3 +139,5 @@ add-zsh-hook chpwd load-nvmrc
 load-nvmrc
 
 export PATH="$PATH:`yarn global bin`"
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
